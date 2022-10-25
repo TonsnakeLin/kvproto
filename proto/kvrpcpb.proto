@@ -26,6 +26,7 @@ message GetRequest {
     Context context = 1;
     bytes key = 2;
     uint64 version = 3;
+    bytes meta = 4;
 }
 
 message GetResponse {
