@@ -8932,6 +8932,11 @@
                 "id": 4,
                 "name": "is_raw_kv",
                 "type": "bool"
+              },
+              {
+                "id": 5,
+                "name": "encrypt",
+                "type": "bool"
               }
             ]
           },

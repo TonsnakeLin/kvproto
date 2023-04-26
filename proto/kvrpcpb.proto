@@ -735,6 +735,7 @@ message SplitRegionRequest {
     repeated bytes split_keys = 3; // when use it to do batch split, `split_key` should be empty.
     // Once enabled, the split_key will not be encoded.
     bool is_raw_kv = 4;
+    bool encrypt = 5;
 }
 
 message SplitRegionResponse {
