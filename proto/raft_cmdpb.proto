@@ -158,6 +158,8 @@ message BatchSplitRequest {
     // If true, the last region derive the origin region_id, 
     // other regions use new ids.
     bool right_derive = 2;
+    // encrypt the new region
+    bool encrypt_region = 3;
 }
 
 message BatchSplitResponse {

@@ -15005,6 +15005,11 @@
                 "id": 2,
                 "name": "right_derive",
                 "type": "bool"
+              },
+              {
+                "id": 3,
+                "name": "encrypt_region",
+                "type": "bool"
               }
             ]
           },
