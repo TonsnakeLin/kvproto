@@ -11564,7 +11564,7 @@
               {
                 "id": 9,
                 "name": "encrypted_region",
-                "type": "uint64"
+                "type": "uint32"
               }
             ]
           },
