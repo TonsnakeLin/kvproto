@@ -8937,6 +8937,11 @@
                 "id": 4,
                 "name": "is_raw_kv",
                 "type": "bool"
+              },
+              {
+                "id": 5,
+                "name": "encrypt",
+                "type": "uint32"
               }
             ]
           },
@@ -11419,6 +11424,11 @@
                 "id": 8,
                 "name": "flashback_start_ts",
                 "type": "uint64"
+              },
+              {
+                "id": 9,
+                "name": "encrypted_region",
+                "type": "uint32"
               }
             ]
           },
@@ -15015,6 +15025,11 @@
                 "id": 2,
                 "name": "right_derive",
                 "type": "bool"
+              },
+              {
+                "id": 3,
+                "name": "encrypt_region",
+                "type": "uint32"
               }
             ]
           },
