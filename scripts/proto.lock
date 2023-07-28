@@ -16487,6 +16487,11 @@
                 "id": 13,
                 "name": "resource_group_name",
                 "type": "string"
+              },
+              {
+                "id": 14,
+                "name": "print_info",
+                "type": "bool"
               }
             ]
           },
@@ -16861,6 +16866,11 @@
                 "id": 12,
                 "name": "disk_usage",
                 "type": "disk_usage.DiskUsage"
+              },
+              {
+                "id": 13,
+                "name": "print_info",
+                "type": "bool"
               }
             ]
           },
