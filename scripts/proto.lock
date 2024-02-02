@@ -4305,6 +4305,10 @@
               {
                 "name": "SM4_CTR",
                 "integer": 5
+              },
+              {
+                "name": "SM4_ECB",
+                "integer": 6
               }
             ]
           }
